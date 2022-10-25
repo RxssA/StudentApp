@@ -39,6 +39,25 @@ public class StudentApp {
         double course2 = input.nextDouble();
         System.out.println("You entered :"+ StudInfo2.getCourse());
         StudInfo.setCourse(course2);
+//////////////////////////////////////////////////////////////////////////
+        System.out.println("please enter another name: ");
+        double name3 = input.nextDouble();
+        StudentInfo StudInfo3 = new StudentInfo();
+        StudInfo3.setName(name3);
+        System.out.println("You entered :"+ StudInfo3.getName());
+
+
+        System.out.println("please enter another email: ");
+        double email3 = input.nextDouble();
+        System.out.println("You entered :"+ StudInfo3.getEmail());
+        StudInfo.setEmail(email3);
+
+        System.out.println("please enter the course name: ");
+        double course3 = input.nextDouble();
+        System.out.println("You entered :"+ StudInfo3.getCourse());
+        StudInfo.setCourse(course3);
+
+
     }
 
 }

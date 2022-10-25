@@ -5,6 +5,18 @@ public class StudentInfo {
     private double email;
     private double course;
 
+    public StudentInfo() {
+        this.name = 0;
+        this.email = 0;
+        this.course = 0;
+    }
+
+    public StudentInfo(double name, double email, double course) {
+        this.name = name;
+        this.email = email;
+        this.course = course;
+    }
+
     public double getName() {
         return name;
     }
